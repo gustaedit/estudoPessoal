@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Delícias da Juliana</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Menu</h1>
+        <div class="options">
+            <h2>Escolha sua Entrada:</h2>
+            <select id="entrada">
+                <option value="Entrada 1">Torresmo</option>
+                <option value="Entrada 2">Ceviche</option>
+                <option value="Entrada 3">Isca de Peixe</option>
+            </select>
+
+            <h2>Escolha seu Prato Principal:</h2>
+            <select id="pratoPrincipal">
+                <option value="Prato 1">Bife de Filé Mignon</option>
+                <option value="Prato 2">Risoto de Camarão</option>
+                <option value="Prato 3">Salmão Grelhado</option>
+                <option value="Prato 4">Yakisoba</option>
+                <option value="Prato 5">Spaghetti à Carbonara</option>
+            </select>
+
+            <h2>Escolha sua Sobremesa:</h2>
+            <select id="sobremesa">
+                <option value="Sobremesa 1">Petit Gâteau</option>
+                <option value="Sobremesa 2">Mousse de Maracujá</option>
+                <option value="Sobremesa 3">Pudim</option>
+            </select>
+
+            <div class="imagem-container">
+                <img id="imagemEntrada" class="imagem-prato" alt="Imagem da Entrada">
+                <img id="imagemPratoPrincipal" class="imagem-prato" alt="Imagem do Prato Principal">
+                <img id="imagemSobremesa" class="imagem-prato" alt="Imagem da Sobremesa">
+            </div>
+
+            <button onclick="mostrarPedido()">Fazer Pedido</button>
+        </div>
+
+        <div class="resultado" id="resultado">
+            <!-- Aqui será exibido o resultado do pedido -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
