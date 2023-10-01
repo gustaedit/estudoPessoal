@@ -1,0 +1,271 @@
+*{
+    list-style: none;
+    padding: 0%;
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display:flex;
+    background-image: url('imagens/Audi-e-tron-wallpaper.png');
+    height: 1080px;
+    justify-content: center;
+    object-fit: contain;
+ 
+}
+.header-top{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    
+}
+.conteiner-banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-btt{
+    margin-top: 10px;
+    width: 38%;
+    justify-content: space-between;
+    display: flex;
+   
+   
+}
+.header-buy{
+    width: 100%;
+    margin-top: 180px;
+    
+}
+.btt1{
+   
+    width: 300px;
+    height: 100px;
+    border-radius: 25px;
+    background-color:whitesmoke;
+    border: none;
+    transition: 0.5s;
+    border: 2px solid whitesmoke;
+    font-size: 20px;
+    font-weight: 700px;
+}
+h1{
+    color: whitesmoke;
+    font-size: 30px;
+    
+}
+h2{
+    font-weight: 500;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.btt1:hover{
+    background-color:rgb(240, 240, 240,0); 
+    color: whitesmoke;                                                          
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    
+
+}
+.header-buy{
+    flex:5;
+}
+
+
+.logo{
+    flex:1;
+}
+.menu{
+    display: flex;
+    flex:8;
+    justify-content: flex-end;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    height: 100px;
+    
+    
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+}
+nav ul li{
+    display: inline;
+
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    font-weight: 100px;
+    width: 100%;
+}
+.final-3{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 180px;
+    align-items: center;
+
+
+
+}
+.container-conteudo-items {
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-conteudo-items > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-conteudo-items > div:first-child {
+    border-right: 1px dashed rgba(34, 34, 34, 0.5);
+}
+.container-conteudo-items > div:nth-child(2) {
+    border-right: 1px dashed rgba(34, 34, 34, 0.5);
+}
+.container-conteudo-items{
+    width: 100%;
+}
+.container-img-car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-carro-audi {
+    width: 70%;
+    z-index: 1;
+}
+.secao-conteudo-principal > div > h1 {
+    width: 85%;
+    position: absolute;
+    left: 7rem;
+    top: 130vh;
+    text-align: center;
+    z-index: -1;
+    font-size: 60px;
+    color: black;
+}
+.container-btn-black{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secao-conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-main {
+    color: white;
+    min-width: 10rem;
+    padding: 1rem;
+    height: 4rem;
+    background: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    font-weight: 700;
+}
+.btn-main:hover {
+    background: none;
+    color: black;
+    cursor: pointer;
+}
+.container-btn-black {
+    margin-bottom:2rem ;
+}
+
+h4{
+    font-weight: 200;
+    font-size: 24px;
+}
+h3{
+    font-size: 39px;
+}
+
+.middle2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.middle2-button{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.info-footer {
+    display: flex;
+    height: 5rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-footer > div > ul > li {
+    font-size: 12px;
+}
+.container-footer > div > ul > li:first-child {
+    font-weight: 700;
+}
+.container-text {
+    display: flex;
+    width: 30%;
+}
+.container-text > span {
+    font-size: 12px;
+}    
+.follow {
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}  
+.follow > div > span {
+    font-size: 12px;
+}  
+.icones-follow {
+    display: flex;
+    justify-content:space-between;
+}
+.icones-follow > li > img {
+    width: 65%;
+}
+.roda-pe{
+    display:flex;
+    justify-content: center;
+    color: #293037;
+    opacity: 0.5;
+}
+
+
+
