@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Delícias da Juliana</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Menu</h1>
+        <div class="options">
+            <h2>Escolha sua Entrada:</h2>
+            <select id="entrada">
+                <option value="Torresmo">Torresmo</option>
+                <option value="Ceviche">Ceviche</option>
+                <option value="Isca de Peixe">Isca de Peixe</option>
+            </select>
+
+            <h2>Escolha seu Prato Principal:</h2>
+            <select id="pratoPrincipal">
+                <option value="Bife de Filé Mignon">Bife de Filé Mignon</option>
+                <option value="Risoto de Camarão">Risoto de Camarão</option>
+                <option value="Salmão Grelhado">Salmão Grelhado</option>
+                <option value="Yakisoba">Yakisoba</option>
+                <option value="Spaghetti à Carbonara">Spaghetti à Carbonara</option>
+            </select>
+
+            <h2>Escolha sua Sobremesa:</h2>
+            <select id="sobremesa">
+                <option value="Petit Gâteau">Petit Gâteau</option>
+                <option value="Mousse de Maracujá">Mousse de Maracujá</option>
+                <option value="Pudim">Pudim</option>
+            </select>
+
+            <button onclick="mostrarPedido()">Fazer Pedido</button>
+        </div>
+
+        <div class="resultado" id="resultado">
+            <!-- Aqui será exibido o resultado do pedido -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
