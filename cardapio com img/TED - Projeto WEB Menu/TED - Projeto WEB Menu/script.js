@@ -1,21 +1,21 @@
 var entradasImagens = {
-    "Entrada 1": "torresmo.jpg",
-    "Entrada 2": "ceviche.jpg",
-    "Entrada 3": "isca.jpg"
+    "Torresmo": "torresmo.jpg",
+    "Ceviche": "ceviche.jpg",
+    "Isca de Peixe": "isca.jpg"
 };
 
 var pratosImagens = {
-    "Prato 1": "file.jpg",
-    "Prato 2": "risoto.jpg",
-    "Prato 3": "Salmão.jpg",
-    "Prato 4": "yakissoba.jpg",
-    "Prato 5": "spaghetti.jpg"
+    "Bife de Filé Mignon": "file.jpg",
+    "Risoto de Camarão": "risoto.jpg",
+    "Salmão Grelhado": "Salmão.jpg",
+    "Yakissoba": "yakissoba.jpg",
+    "Spaghetti à Carbonara": "spaghetti.jpg"
 };
 
 var sobremesasImagens = {
-    "Sobremesa 1": "petitgateau.jpg",
-    "Sobremesa 2": "mousse.jpg",
-    "Sobremesa 3": "pudim.jpg"
+    "Petit Gâteau": "petitgateau.jpg",
+    "Mousse de Maracujá": "mousse.jpg",
+    "Pudim": "pudim.jpg"
 };
 
 function mostrarImagemSelecionada(tipo, opcaoSelecionada) {
@@ -29,7 +29,7 @@ function mostrarImagemSelecionada(tipo, opcaoSelecionada) {
             break;
         case "pratoPrincipal":
             imagens = pratosImagens;
-            tipoNome = "Prato Principal";
+            tipoNome = "PratoPrincipal";
             break;
         case "sobremesa":
             imagens = sobremesasImagens;
@@ -67,3 +67,4 @@ function mostrarPedido() {
         <p><strong>Sobremesa:</strong> ${sobremesaSelecionada}</p>
     `;
 }
+
